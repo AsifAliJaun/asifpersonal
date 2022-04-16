@@ -502,13 +502,29 @@
    			</div>
 
    			<h5>Where to find me</h5>
+			</script>
+   		    
+  var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
+  var marker = new google.maps.Marker({position:latlon,map:map,title:"You are here!"});
+}
 
-   			<p>
-            192301,Gangoo Pulwama<br>
-            Srinagar,J&K<br>
-            India
-            </p>
-
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
    		</div>
 
    		<div class="col-four tab-full collapse">
@@ -519,8 +535,7 @@
 
    			<h5>Email Me At</h5>
 
-   			<p>asifalizeyan1234@pec.edu<br>			     
-			   </p>
+   			<p><a href="mailto:asifalizeyan1234@gmail.com">mailto:asifalizeyan1234@gmail.com</a></p>
 
    		</div>
 
@@ -532,8 +547,7 @@
 
    			<h5>Call Me At</h5>
 
-   			<p>Phone: (+91)9103025828<br>
-			   </p>
+   			<p><a href="tel:+919103025828">+91-9103025828</a></p>
 
    		</div>
    		
