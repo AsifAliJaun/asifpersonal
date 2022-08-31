@@ -2031,14 +2031,6 @@ header .logo a {
 	padding-bottom: 9rem;
 	text-align: center;
 	background: #313131 url(../images/bg2.jpg) no-repeat center;
-	color:white;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-	color: white;
-	position: relative;
 }
 #cta p.lead {
 	color: #6e6e6e;
