@@ -2031,6 +2031,7 @@ header .logo a {
 	padding-bottom: 9rem;
 	text-align: center;
 	background: #313131 url(../images/bg.jpg) no-repeat center;
+	color:white;
 }
 #cta p.lead {
 	color: #6e6e6e;
