@@ -2030,6 +2030,7 @@ header .logo a {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
 	text-align: center;
+	background: #313131 url(../images/bg.jpg) no-repeat center;
 }
 #cta p.lead {
 	color: #6e6e6e;
