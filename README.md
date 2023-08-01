@@ -2,6 +2,8 @@
 
 Welcome to JAUN, a personal website project showcasing the skills and portfolio of Asif Ali Dar. This repository contains the code and assets for the website.
 
+Website link : [https://asifalijaun.github.io/asifpersonal/](https://asifalijaun.github.io/asifpersonal/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
